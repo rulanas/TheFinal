@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/main"
+    tools:context="com.example.nasar.thefinal.MainActivity"
+    android:weightSum="1">
+
+<TextView
+    android:text="FOODUCATE"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv"
+    android:layout_gravity="bottom"
+
+    android:textAlignment="center"
+    android:paddingTop="20dp"
+    android:typeface="serif"
+    android:textSize="40sp"
+    android:textStyle="normal|bold"
+    android:textColor="?attr/colorControlActivated"
+    tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Example@example.com" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="LOG IN" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="150dp"
+        android:text="SIGN UP"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+
